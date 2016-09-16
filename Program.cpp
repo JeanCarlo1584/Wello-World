@@ -5,7 +5,7 @@ int main(){
 	char option;
 	
 	printf("This program is create with GitHub. It's work? s/n: ");
-	scanf("%c", option);
+	scanf("%c", &option);
 	if (option = 's'){
 		printf("Oh, very good!\n");
 	}
